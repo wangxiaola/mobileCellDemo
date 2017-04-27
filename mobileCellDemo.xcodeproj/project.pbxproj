@@ -483,6 +483,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YC78659G27;
 				INFOPLIST_FILE = mobileCellDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daqsoft.ios.add.mobileCellDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +497,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YC78659G27;
 				INFOPLIST_FILE = mobileCellDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daqsoft.ios.add.mobileCellDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,11 +508,16 @@
 		3BBB27D91EB1D8E5009AE372 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhou Daohua (7E4U8C88MR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YC78659G27;
 				INFOPLIST_FILE = mobileCellDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daqsoft.ios.add.mobileCellDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_TARGET_NAME = mobileCellDemo;
 			};
 			name = Debug;
@@ -518,11 +525,16 @@
 		3BBB27DA1EB1D8E5009AE372 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhou Daohua (7E4U8C88MR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YC78659G27;
 				INFOPLIST_FILE = mobileCellDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daqsoft.ios.add.mobileCellDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_TARGET_NAME = mobileCellDemo;
 			};
 			name = Release;
@@ -546,6 +558,7 @@
 				3BBB27D41EB1D8E5009AE372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BBB27D51EB1D8E5009AE372 /* Build configuration list for PBXNativeTarget "mobileCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +567,7 @@
 				3BBB27D71EB1D8E5009AE372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BBB27D81EB1D8E5009AE372 /* Build configuration list for PBXNativeTarget "mobileCellDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +576,7 @@
 				3BBB27DA1EB1D8E5009AE372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

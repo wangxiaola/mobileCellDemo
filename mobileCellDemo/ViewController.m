@@ -71,8 +71,12 @@ NSString *const cellOrder_key = @"cellOrder_key";
 {
     [self.view addSubview:self.collectionView];
     
+#ifdef __IPHONE_9_0
+    
     self.longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(lonePressMoving:)];
     [self.collectionView addGestureRecognizer:_longPress];
+
+#endif
 }
 - (void)setDada
 {
